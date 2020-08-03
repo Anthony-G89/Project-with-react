@@ -2,6 +2,32 @@
   text-align: center;
 }
 
+.navlinks, a {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  padding: 6px;
+  
+}
+
+.navBackground {
+  background-color: gray;
+  padding: 10px 7px 20px 0;
+}
+
+.searchForm {
+  float: right;
+  padding-top: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.searchBtn {
+  background-color: blue;
+  color: white;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
