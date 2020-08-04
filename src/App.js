@@ -23,8 +23,8 @@ class App extends React.Component {
           <div >
             <nav className="navBackground">
               <form className="searchForm" >
-                <input type="search" placeholder="Search" />
-                <button className="searchBtn" type="submit" onClick={this.buttonTest} >Search</button>
+                <input type="search" placeholder="Search" aria-label="Search" />
+                <button className="searchBtn" type="submit" aria-label="Search button" onClick={this.buttonTest} >Search</button>
               </form>
               <li className="nav-link navlinks"><Link to="/">Home</Link></li>
               <li className="nav-link navlinks"><Link to="/about">About</Link></li>
