@@ -1,0 +1,12 @@
+.userForm {
+    padding: 50px;
+    margin: 40px;
+    background-color: wheat;
+
+}
+
+.closeWindow {
+    position: absolute;
+    right: 54px;
+    top: 128px;
+}
