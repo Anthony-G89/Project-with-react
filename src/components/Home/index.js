@@ -1,9 +1,11 @@
 import React from "react";
 import "./style.css";
+// import img from "../../Images/tic-tac-toe.png"
 
 
 const home = props => {
 
+    
 
     return (
         <div>
