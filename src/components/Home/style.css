@@ -1,4 +1,16 @@
 .home {
     text-align: center;
+    
 
+}
+
+.homeBody {
+    background-image: url(../../Images/tic-tac-toe.png);
+    height: 92vh;
+    padding: 30px;
+}
+
+.count {
+    margin: 20px;
+    padding-bottom: 70px;
 }

@@ -5,6 +5,23 @@ import "./style.css";
 
 const about = propz => {
 
+    const meatball = <h1>Anthony Guerrero</h1>
+
+    function Me(props) {
+        console.log(props)
+        return (
+            
+            <h1> whats up  { props.name}</h1>
+            
+        );
+    };
+    const element = <Me name="Anthony is a cool guy" />
+
+   
+
+  
+
+
     return (
         <div>
 
@@ -18,8 +35,16 @@ const about = propz => {
 
                 Cras viverra odio et convallis vehicula. Donec a vestibulum ligula. Nam fermentum ligula ac dui tempor, sit amet fermentum neque aliquam. Suspendisse nec felis egestas, lobortis nisi laoreet, faucibus nisi. Mauris dapibus laoreet elit non accumsan. Donec imperdiet sapien nec urna consequat, quis feugiat lorem feugiat. Pellentesque odio dui, maximus quis eros semper, vulputate porttitor leo. Praesent sed nunc at purus imperdiet finibus. Donec ut eros sed elit suscipit interdum.</p>
 
+                <p>{meatball}</p>
 
+                <h1> {element}</h1>
+
+
+             
             </div>
+
+
+
 
 
 

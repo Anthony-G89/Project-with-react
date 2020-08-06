@@ -25,14 +25,15 @@ class Form extends React.Component {
 
     render() {
         return (
-            <div>
-                <div>
-                    <form className="userForm">
+            <div className="blogBody">
+                
+                
+                    <form className=" card cardForm">
                         <i className="fas fa-window-close closeWindow" onClick={this.Window} ></i>
                         <div className="form-group">
                             <label className="userEmail" aria-label="Email Address">Email Address</label>
                             <input type="email" aria-label="Email Input" className="form-control userInput" />
-                            <smal className="emailHelp">We'll never share your email with anyone else.</smal>
+                            <p className="emailHelp">We'll never share your email with anyone else.</p>
                         </div>
                         <div className="form-group">
                             <label className=" userEmail" aria-label="password">Password</label>
@@ -47,7 +48,7 @@ class Form extends React.Component {
                         </div>
 
                     </form>
-                </div>
+               
 
             </div>
         )
