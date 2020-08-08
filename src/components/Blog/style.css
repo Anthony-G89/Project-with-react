@@ -5,6 +5,10 @@
 
 }
 
+.card > .closeWindow {
+    color: red;
+}
+
 .cardForm {
   padding: 30px;
   margin: 60px;
