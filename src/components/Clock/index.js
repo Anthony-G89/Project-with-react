@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 
 
@@ -16,16 +16,21 @@ class Clock extends React.Component {
     };
 
     handleToggle = () => {
-        this.setState(onClick)
+        this.setState({
+            on: !this.state.on
+        })
     }
 
     
     render() {
         return (
             <div>
-                <button onClick={() => }>
+                
 
-                </button>
+              {this.state.on && this.props.children}
+              <button onClick={this.handleToggle}>Hide/Show</button>
+
+                
                 {/* <h1>Hello world</h1>
                 <h2>It is {this.state.apple.toDateString()} </h2> */}
             </div>

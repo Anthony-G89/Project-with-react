@@ -31,7 +31,10 @@ class App extends React.Component {
               <li className="nav-link navlinks"><Link to="/">Home</Link></li>
               <li className="nav-link navlinks"><Link to="/about">About</Link></li>
               <li className="nav-link navlinks"><Link to="/blog">Blog</Link></li>
-              <li className="nav-link navlinks"><Link to="clock">Clock</Link></li>
+              {/* <li className="nav-link navlinks"><Link to="clock">Clock</Link></li> */}
+              <Clock>
+            <h1>hello from App.js</h1>
+          </Clock>
             </nav>
           </div>
          
@@ -39,7 +42,8 @@ class App extends React.Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/blog" component={Blog} />
-          <Route path="/clock" component={Clock} />
+          {/* <Route path="/clock" component={Clock} /> */}
+         
           <Route component={Footer}/>
         </Router>
       
