@@ -1,22 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 
 
 
 
 class Clock extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { apple: new Date() };
-        console.log(props);
+    // constructor(props) {
+    //     super(props);
+    //     this.state = { apple: new Date() };
+    //     console.log(props);
 
 
+    // }
+    state = {
+        toggleButton: false
+    };
+
+    handleToggle = () => {
+        this.setState(onClick)
     }
 
+    
     render() {
         return (
             <div>
-                <h1>Hello world</h1>
-                <h2>It is {this.state.apple.toDateString()} </h2>
+                <button onClick={() => }>
+
+                </button>
+                {/* <h1>Hello world</h1>
+                <h2>It is {this.state.apple.toDateString()} </h2> */}
             </div>
         )
     }
