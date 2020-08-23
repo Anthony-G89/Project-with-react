@@ -10,14 +10,16 @@ class Clock extends React.Component {
     //     console.log(props);
 
 
-    // }
+    // ;}
+
+
     state = {
         toggleButton: false
     };
 
     handleToggle = () => {
         this.setState({
-            on: !this.state.on
+            toggleButton: !this.state.toggleButton
         })
     }
 
@@ -27,12 +29,12 @@ class Clock extends React.Component {
             <div>
                 
 
-              {this.state.on && this.props.children}
+              {this.state.toggleButton && this.props.children}
               <button onClick={this.handleToggle}>Hide/Show</button>
 
-                
-                {/* <h1>Hello world</h1>
-                <h2>It is {this.state.apple.toDateString()} </h2> */}
+{/*                 
+                 {<h1>Hello world</h1> }
+                {<h2>It is {this.state.apple.toDateString()} </h2>} */}
             </div>
         )
     }

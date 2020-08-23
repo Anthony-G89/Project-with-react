@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.york{
+  color: white;
+  background-color: #253290;
+  position: absolute;
+  margin: 0 0 58px;
+  padding: 0 8px 0 0;
+  bottom: 37em;
+  right: 80em;
+  top: 5em;
+
+}
+
 .navlinks, a {
   display: inline-block;
   color: white;
