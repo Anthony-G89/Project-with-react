@@ -25,7 +25,7 @@ function App() {
 
     <div>
        {show ? <div onClick={closeModalHandler} className="back-drop"></div> : null}  
-      <button onClick={() => setShow(true)} className="btnToOpen">Open Model</button>
+      <button onClick={() => setShow(true)} className="btnToOpen">Click Me</button>
       <Modal show={show} close={closeModalHandler} />
     </div>
     // <Router>

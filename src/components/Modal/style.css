@@ -13,6 +13,7 @@ body {
      width: 80%;
      max-width: 800px;
      margin: 4rem auto;
+     transition:  .7s;
 }
 
 
@@ -35,6 +36,12 @@ body {
 .modal-body h4 {
     color: orange;
     font-weight: bold;
+}
+
+.modal-content img {
+    position: relative;
+    margin: 1rem;
+    padding-left: 17%;
 }
 
 .modal-body p {
@@ -61,16 +68,17 @@ body {
     background-color: gray;
     color: white;
     padding: 5px 25px;
-    margin: 2rem;
+    margin: 2rem ;
+    
 }
 
 
 .back-drop {
-    background-color: lightslategray;
+    background-color: rgb(219, 221, 223);
     height: 100%;
-    /* position: fixed;
-    transition: all 1.3s;
-    width: 100%; */
+    position: fixed;
+    transition: 1.3s;
+    width: 100%;
 }
 
 
