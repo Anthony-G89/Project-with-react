@@ -42,6 +42,7 @@ body {
     position: relative;
     margin: 1rem;
     padding-left: 17%;
+    /* height: 111px; */
 }
 
 .modal-body p {
@@ -69,9 +70,11 @@ body {
     color: white;
     padding: 5px 25px;
     margin: 2rem ;
-    
 }
 
+.btnToOpen:hover {
+    color: blue;
+}
 
 .back-drop {
     background-color: rgb(219, 221, 223);
