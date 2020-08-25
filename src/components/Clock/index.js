@@ -29,7 +29,7 @@ class Clock extends React.Component {
             <div>
                 
 
-              {this.state.toggleButton && this.props.children}
+              {this.state.toggleButton&& this.props.children}
               <button onClick={this.handleToggle}>Hide/Show</button>
 
 {/*                 

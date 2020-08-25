@@ -3,13 +3,11 @@
 }
 
 .york{
-  color: white;
+  color: red;
   background-color: #253290;
   position: absolute;
-  margin: 0 0 58px;
   padding: 0 8px 0 0;
-  bottom: 37em;
-  right: 80em;
+  left: 111px;
   top: 5em;
 
 }
